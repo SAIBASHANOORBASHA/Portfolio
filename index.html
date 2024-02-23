@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:430px)" href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <img src="images/picture.jpg" alt="Sai Basha Noorbasha">
+            <h1 class="headings">I am <br> Sai Basha Noorbasha</h>
+            <button class="btn">
+                Contact Info
+            </button>
+             <a href="images/Resume.pdf" download="Sai Basha Resume.pdf">
+             <button class="btn">Download Resume</button>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">About Me</h1>
+        <div id="pic">
+            <img src="images/profile picture.png" alt="">
+            <div id="intro">
+                <h2>Sai Basha Noorbasha</h2>
+                <p>Hello! I'm Sai Basha, a final-year Computer Science student at Vishnu Institute of Technology, Bhimavaram. Currently pursuing my B.Tech, I am passionate about exploring the vast world of technology.My academic journey has equipped me with a solid foundation in computer science, and I am enthusiastic about applying my knowledge to real-world challenges.Beyond academics, I enjoy diving into coding projects, staying updated with the latest industry trends, and collaborating with peers on innovative ideas.Let's connect and explore the exciting possibilities as I embark on my journey in the tech world.I find joy in playing cricket, exploring the internet for the latest tech trends, and delving into coding projects. These hobbies not only provide a refreshing break but also contribute to my continuous learning and growth.</p>
+                <div class="social-icons-about">
+                    <a href="https://github.com/SAIBASHANOORBASHA">
+                        <img src="images/github-logo.png" alt="Github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/sai-basha-noorbasha-b26707213/">
+                        <img src="images/LinkedIn.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="headings">Skills</h1>
+        <div class="skills">
+            <div class="skill">
+                <h2>Frontend Development</h2>
+                <ul><p><pre>
+                    <li><b>HTML</b> <span class="checkmark"><ul>Experienced</ul></span></li>
+                    <li><b>CSS</b> <span class="checkmark"><ul>Experienced</ul></span></li>
+                    <li><b>JavaScript</b> <span class="checkmark"><ul>Basic</ul></span></li>
+                    <li><b>React</b> <span class="checkmark"><ul>Intermediate</ul></span></li></pre></p>
+                </ul>
+            </div>
+            <div class="skill">
+                <h2>Backend Development</h2>
+                <ul><p><pre>
+                    <li><b>NodeJS</b> <span class="checkmark"><ul>Basic</ul></span></li>
+                    <li><b>Git</b> <span class="checkmark"><ul>Basic</ul></span></li>
+                    <li><b>Express JS</b> <span class="checkmark"><ul>Basic</ul></span></li></pre></p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h1 class="headings">Education</h1>
+        <div class="row">
+            <div class="box">
+                <img src="images/edu.png" alt="">
+                <h1 class="headings">Bachelor's in Computer Science</h1>
+                <p>I'm Currently pursuing my B.Tech degree in Computer Science from Vishnu Institute of Technology,Bhimavaram in Final Year[2024]. During my academic journey, I specialized in various Back-End and Front-End developement and gained valuable Certifications from different types zones.</p>
+            </div>
+            <div class="box">
+                <img src="images/edu.png" alt="">
+                <h1 class="headings">Intermediate MPC</h1>
+                <p>I Completed my Intermediate degree in MPC from Narayana Junior College,Vijayawada in 2020. Streams are Mathematics, Physics, Chemistry(MPC) and we also have Competitive exams like IIT JEE Mains and I Completed my Intermediate with Better CPGA.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">Contact Me</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Full Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="message" id="message" cols="40" rows="20" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
